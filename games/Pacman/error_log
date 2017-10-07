@@ -1,0 +1,1 @@
+[16-Apr-2015 07:52:59 America/Chicago] PHP Parse error:  syntax error, unexpected '$fresh_stmt' (T_VARIABLE) in /home3/faalbane/public_html/MIS426Project/mis/games/Pacman/getscore.php on line 30

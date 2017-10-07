@@ -1,0 +1,24 @@
+<?php
+$score = $_GET['score'];
+$uid = $_GET['uid'];
+
+$f = fopen("scoreoutput.txt", "a");
+fwrite($f, $score . " " . $uid . "\r\n");
+
+    //DB connection data.
+    //Probably leave $host alone.
+    $host = 'localhost';
+    //Set $db to the name of your database.
+    $db = 'lauren';
+    //Set user_name to the name of the MySQL user you made.
+    $user_name = 'lauren';
+    //Set $password to the user's password.
+    $password = 'lauren';
+
+    //Connect to the MySQL server.
+    $db = new mysqli($host, $user_name, $password, $db);
+    //Did it work?
+
+    $query = "insert into test (score, UID) values ('$score', '$uid')";
+    
+    $db->query($query);

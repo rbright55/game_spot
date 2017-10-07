@@ -1,0 +1,3 @@
+[13-Apr-2015 19:30:40 America/Chicago] PHP Parse error:  syntax error, unexpected '$score' (T_VARIABLE) in /home3/faalbane/public_html/MIS426Project/mis/games/2048/storescore.php on line 5
+[13-Apr-2015 19:34:59 America/Chicago] PHP Parse error:  syntax error, unexpected '$score' (T_VARIABLE) in /home3/faalbane/public_html/MIS426Project/mis/games/2048/storescore.php on line 5
+[13-Apr-2015 19:46:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$score' (T_VARIABLE) in /home3/faalbane/public_html/MIS426Project/mis/games/2048/storescore.php on line 5
